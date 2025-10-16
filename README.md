@@ -205,7 +205,7 @@ stub = modal.Stub("pricer-service")
 @stub.function()
 def price(features: dict):
     # returns model predictions
-    ...
+    ```
 
 
 ## Finally
