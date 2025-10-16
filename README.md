@@ -1,4 +1,4 @@
-# The Price is Right — README
+# agentic-ai-deal-hunter
 
 **A Complete AI-Powered Price Intelligence System — Built by Me**
 
