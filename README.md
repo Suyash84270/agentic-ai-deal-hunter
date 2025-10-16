@@ -151,7 +151,7 @@ The dashboard feels alive — I can see my system thinking, retrieving, and pred
 
 ---
 
-## Discussion and Reflection
+
 
 ### Why I Built It
 
@@ -169,12 +169,7 @@ I wanted to create something that doesn’t just use AI passively but *acts* on 
 
 This project is 100% built by me — from data preparation to model training, agent creation, UI design, and deployment.  Every part of it is hand-crafted and fine-tuned to work smoothly together.
 
-### Next Steps
 
-* Add more automation to handle daily deal scans.
-* Expand to include price trend prediction.
-* Improve visualization with category filters.
-* Integrate a feedback loop for model retraining based on new data.
 
 ---
 
