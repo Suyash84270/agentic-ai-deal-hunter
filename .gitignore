@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments
+.venv/
+myenv/
+env/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Secrets & local config
+.env
+*.secret
+
+# Local vector DB (optional - may be large)
+# products_vectorstore/
+
+# Git LFS will handle large binary files; but you can exclude entire folders if you prefer
