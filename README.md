@@ -196,7 +196,7 @@ The fine-tuned model is deployed on **[Modal Cloud](https://modal.com/apps/suyas
 - It runs in the cloud using lightweight containers — no need to keep a local server running.  
 - The deployed Modal function pricer can be called directly from Python or other agents.
 
-## 🧩 Example Usage
+##  Example Usage
 ```python
 import modal
 
@@ -208,7 +208,7 @@ def price(features: dict):
     ...
 ```
 
-## 🏁 Finally
+##  Finally
 
 This project is my personal achievement in combining multiple areas of AI — data processing, vector search, and autonomous agents.
 
