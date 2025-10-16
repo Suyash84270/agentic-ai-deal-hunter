@@ -187,6 +187,27 @@ This project is 100% built by me — from data preparation to model training, ag
 
 ---
 
+##  Modal Model Deployment (Backend API)
+
+The fine-tuned model is deployed on **[Modal Cloud](https://modal.com/apps/suyashshastri2227/main/ap-eZkAGJNvezZmJjKVxeAhSM?start=1760510503.243&end=1760596903.243&live=true&activeTab=functions&functionId=fu-WPjFbfG8742ae6IzZvITnH&functionSection=calls&limit=100&includeLogContext=false)** as a serverless backend service.
+
+###  Functionality
+- The model is hosted on Modal for **on-demand predictions**.  
+- It runs in the cloud using lightweight containers — no need to keep a local server running.  
+- The deployed Modal function pricer can be called directly from Python or other agents.
+
+###  Example Usage
+```python
+import modal
+
+stub = modal.Stub("pricer-service")
+
+@stub.function()
+def price(features: dict):
+    # returns model predictions
+    ...
+
+
 ## Finally
 
 This project is my personal achievement in combining multiple areas of AI — data processing, vector search, model training, visualization, and intelligent automation — into one unified system that actually works in real-time.
