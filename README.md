@@ -120,8 +120,12 @@ I visualized my product embeddings to understand how similar products group toge
 
 This step gave me deep insights into how my AI “sees” different product types. It helped me verify that my embeddings were working properly and capturing real meaning from product descriptions.
 
+### 2D Visualization
+[![2D Visualization]("C:\Users\mpant\OneDrive\Desktop\ai\screenshots\2D.png")]("C:\Users\mpant\OneDrive\Desktop\ai\screenshots\2D.png")
 ---
 
+### 3D Visualization
+[![3D Visualization]("C:\Users\mpant\OneDrive\Desktop\ai\screenshots\3D.png")]("C:\Users\mpant\OneDrive\Desktop\ai\screenshots\3D.png")
 ##  How My AI Thinks
 
 When my AI predicts a price, it does not just guess. Here’s how it reasons step by step:
@@ -149,6 +153,14 @@ My Gradio dashboard acts as the main control center for everything. When I run t
 
 The dashboard feels alive — I can see my system thinking, retrieving, and predicting continuously.
 
+###  Gradio App UI
+[![Gradio App UI]("C:\Users\mpant\OneDrive\Desktop\ai\screenshots\gradio_full.png")]("C:\Users\mpant\OneDrive\Desktop\ai\screenshots\gradio_full.png")
+
+###  Agent Flow
+[![Agent Flow]("C:\Users\mpant\OneDrive\Desktop\ai\screenshots\gradio_agent_flow.png")]("C:\Users\mpant\OneDrive\Desktop\ai\screenshots\gradio_agent_flow.png")
+
+### 3D Plot
+[![3D plot]("C:\Users\mpant\OneDrive\Desktop\ai\screenshots\gradio_visualization.png")]("C:\Users\mpant\OneDrive\Desktop\ai\screenshots\gradio_visualization.png")
 ---
 
 
