@@ -196,7 +196,7 @@ The fine-tuned model is deployed on **[Modal Cloud](https://modal.com/apps/suyas
 - It runs in the cloud using lightweight containers — no need to keep a local server running.  
 - The deployed Modal function pricer can be called directly from Python or other agents.
 
-##  Example Usage
+## 🧩 Example Usage
 ```python
 import modal
 
@@ -206,15 +206,14 @@ stub = modal.Stub("pricer-service")
 def price(features: dict):
     # returns model predictions
     ...
+```
 
+## 🏁 Finally
 
+This project is my personal achievement in combining multiple areas of AI — data processing, vector search, and autonomous agents.
 
-## Finally
+It’s not just a model — it’s a living AI assistant that watches prices, learns patterns, and interacts intelligently.
 
-This project is my personal achievement in combining multiple areas of AI — data processing, vector search, model training, visualization, and intelligent automation — into one unified system that actually works in real-time.
+I’m proud of how everything connects — from the raw data to the 3D visualization and final notification system.
 
-It’s not just a model — it’s a living AI assistant that watches prices, learns patterns, and interacts with me directly.
-
-I’m proud of how everything connects — from the raw data to the 3D visualization and final notifications on my phone.
-
-This project taught me how to think like an AI engineer, a data scientist, and a system designer all at once. 
+This project taught me how to think like an AI engineer, a data scientist, and a system designer all at once.
